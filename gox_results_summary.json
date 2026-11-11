@@ -1,0 +1,44 @@
+{
+  "baseline_mean": {
+    "method": "Mean predictor (LOOCV)",
+    "RMSE": 13.641142325225916,
+    "R2": null,
+    "Spearman": null
+  },
+  "aac_esm2_combined": {
+    "method": "AAC+ESM2, PCA+LightGBM, Optuna",
+    "RMSE": 12.94843941912027,
+    "R2": 0.058492001402494886,
+    "Spearman": 0.30002907269221246
+  },
+  "aac_only": {
+    "method": "AAC only, LightGBM, Optuna",
+    "RMSE": 13.74366107235447,
+    "R2": -0.06070356556083478,
+    "Spearman": 0.2039158632583435
+  },
+  "esm2_only": {
+    "method": "ESM2 only, PCA+LightGBM, Optuna",
+    "RMSE": 13.175364041255797,
+    "R2": 0.025202508152260994,
+    "Spearman": 0.2016893024220377
+  },
+  "combined_no_general_filter": {
+    "method": "AAC+ESM2, PCA+LightGBM, Optuna",
+    "RMSE": 13.156661038401799,
+    "R2": 0.02796807879023422,
+    "Spearman": 0.22042952279427855
+  },
+  "aac_no_general_filter": {
+    "method": "AAC only, LightGBM, Optuna",
+    "RMSE": 13.601551450260294,
+    "R2": -0.038881596132553264,
+    "Spearman": 0.19974722111983784
+  },
+  "esm2_no_general_filter": {
+    "method": "ESM2 only, PCA+LightGBM, Optuna",
+    "RMSE": 13.159739821222857,
+    "R2": 0.027513096279258464,
+    "Spearman": 0.20979150990970616
+  }
+}
