@@ -1,0 +1,15 @@
+# Local modeling environment (VS Code, Windows, Python 3.8.8)
+# Used for: PCA, LightGBM, Optuna, LOOCV, tables, figures (cells 19 onward)
+# All versions below were confirmed by the author from the local environment.
+lightgbm==4.6.0
+scikit-learn==1.3.2
+optuna==4.5.0
+pandas==2.0.3
+numpy==1.24.4
+scipy==1.10.1
+torch==2.4.1  # installed locally as 2.4.1+cpu (CPU build)
+fair-esm==2.0.0
+
+# Google Colab (NOT installed from this file):
+# Python 3.13, torch==2.14.1+cu130 (CUDA 13.0 build, from Colab pip freeze), fair-esm==2.0.0, GPU T4.
+# Used for: CD-HIT (cell 9) and ESM-2 embeddings (cells 16-17).
