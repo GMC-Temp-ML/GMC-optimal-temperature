@@ -66,7 +66,7 @@ cd-hit -i all_sequences_clean.fasta -o clustered_output -c 0.7 -n 5 -d 0
 | `56_GOX.csv`, `gox_*` tables, derived features | Compiled by the authors from UniProt and BRENDA (as reported by the authors) | UniProt: CC BY 4.0 ([uniprot.org/help/license](https://www.uniprot.org/help/license)). BRENDA: CC BY 4.0 ([brenda-enzymes.org/license.php](https://www.brenda-enzymes.org/license.php)). Redistribution is permitted with attribution; please cite UniProt and BRENDA when reusing these data. |
 | Code (`.ipynb`) | This repository | MIT ([LICENSE](LICENSE)) |
 
-Physicochemical parameters in `56_GOX.csv` (pH optimum, Km, kcat, temperature range) originate from BRENDA and UniProt. Whether each value is measured or imputed has not yet been confirmed, and these parameters are not used by the final model.
+Physicochemical parameters in `56_GOX.csv` (pH optimum, Km, kcat, temperature range) were taken directly from BRENDA and UniProt, without imputation (confirmed by the authors). These parameters are not used by the final model.
 
 ## How to reproduce
 
@@ -83,7 +83,6 @@ Note: LightGBM failed to load in a sandbox environment (`libgomp` / `lib_lightgb
 - Cluster overlap between training and test folds (see Method).
 - The improvement over the mean baseline is not statistically significant.
 - Stages were run in different environments; results have not been reproduced independently.
-- The measured-versus-imputed status of the physicochemical parameters in `56_GOX.csv` (pH, Km, kcat, temperature range) is not yet confirmed.
 
 ## Citation
 
