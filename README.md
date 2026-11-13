@@ -66,7 +66,7 @@ cd-hit -i all_sequences_clean.fasta -o clustered_output -c 0.7 -n 5 -d 0
 | `56_GOX.csv`, `gox_*` tables, derived features | Compiled by the authors from UniProt and BRENDA (as reported by the authors) | UniProt: CC BY 4.0 ([uniprot.org/help/license](https://www.uniprot.org/help/license)). BRENDA: CC BY 4.0 ([brenda-enzymes.org/license.php](https://www.brenda-enzymes.org/license.php)). Redistribution is permitted with attribution; please cite UniProt and BRENDA when reusing these data. |
 | Code (`.ipynb`) | This repository | MIT ([LICENSE](LICENSE)) |
 
-Physicochemical parameters in `56_GOX.csv` (pH optimum, Km, kcat, temperature range) were compiled from BRENDA and UniProt. The authors have not yet confirmed whether any values were imputed: 32 of 56 kcat values are identical (28.721379915502112) and 38 of 56 temp_range_min values are 30.0. The source and any imputation for these values are not yet verified. These parameters are not used by the final model.
+**Physicochemical columns in `56_GOX.csv`.** The columns `ph_opt`, `km_mM`, `kcat_per_s`, `temp_range_min_C`, `temp_range_max_C`, and `temp_range_span` are not used in the analysis. Cell 2 of the notebook drops them before modeling, so they have no role in any reported result. They are kept in the file for reference only.
 
 ## How to reproduce
 
