@@ -86,4 +86,6 @@ Note: LightGBM failed to load in a sandbox environment (`libgomp` / `lib_lightgb
 
 ## Citation
 
-A citation entry and Zenodo DOI will be added with the v1.0.0 release.
+[![DOI](https://zenodo.org/badge/1454007269.svg)](https://doi.org/10.5281/zenodo.24201702)
+
+The badge above resolves to the latest version. To cite this exact release (v1.0.0), use its version DOI: https://doi.org/10.5281/zenodo.24201703
